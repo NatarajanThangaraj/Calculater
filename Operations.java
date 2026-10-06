@@ -12,6 +12,9 @@ public int getInputInt(String message){
    return sc.nextInt();
 
 }
+public int add(int a,int b){
+return a+b;
+}
 
 
 
@@ -37,4 +40,4 @@ public int getInputInt(String message){
   
   
   }
->>>>>>> cf03b0764bea54f409e8892c37558b406966038a
+
