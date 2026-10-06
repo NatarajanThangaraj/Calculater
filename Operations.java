@@ -45,7 +45,13 @@ Scanner sc = new Scanner(System.in);
         long sqr = num * num;
         return sqr;
     }
+    public int multiply(){
+         int num1 = getInputInt("Enter Num 1 : ");
+         int num2 = getInputInt("Enter num 2 : ");
+         return num1 * num2;
+}
+
 }
 
 
-
+   
