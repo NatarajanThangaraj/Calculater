@@ -1,17 +1,14 @@
-package Calculator;
+package Calculater;
+
 import java.util.Scanner;
 
-class Operations{
+public class Operations {
 
-   Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
-public int getInputInt(String message){
-   
-    System.out.println(message);
-   return sc.nextInt();
-
-}
-
-
+    public int getInputInt(String message) {
+        System.out.println(message);
+        return sc.nextInt();
+    }
 
 }
