@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Calculator;
 import java.util.Scanner;
 
@@ -15,3 +16,25 @@ public int getInputInt(String message){
 
 
 }
+=======
+ package Calculater;                                                                                               
+ 
+   import java.util.Scanner;
+   
+   public class Operations{
+   
+       public long square(){
+   
+           Scanner scan = new Scanner(System.in);
+  
+          int num = scan.nextInt();
+  
+          long sqr = num * num;
+  
+          return sqr;
+  
+      }
+  
+  
+  }
+>>>>>>> cf03b0764bea54f409e8892c37558b406966038a
