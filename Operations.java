@@ -34,11 +34,26 @@ class Operations{
 }
 Scanner sc = new Scanner(System.in);
 
+<<<<<<< HEAD
 public int getInputInt(String message){
    
     System.out.println(message);
    return sc.nextInt();
 
+=======
+    public int getInputInt(String message) {
+        System.out.println(message);
+        return sc.nextInt();
+    }
+
+    public long square(){
+
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        long sqr = num * num;
+        return sqr;
+    }
+>>>>>>> 8d300f3f319c88fb2e11b870b7a3cfed605516fd
 }
 
 
