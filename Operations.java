@@ -1,35 +1,38 @@
 <<<<<<< HEAD
-import java.util.Scanner;
-
-public class Operations{
-
-    Scanner input = new Scanner(System.in);
-
-public static void main(String[] args) {
-    
-
-
-}
-
-public int addtion(){
-    System.out.println("Enter the First Number :");
-    int firstNum = input.nextInt();
-    
-    System.out.println("Enter the Second Number :");
-    int secondNum = input.nextInt();
-
-    return firstNum+secondNum;
-}
-
-}
-=======
-<<<<<<< HEAD
 package Calculator;
 import java.util.Scanner;
-
 class Operations{
+ public void showMenu(){
+    System.out.println("========= MENU ============");
+    System.out.println("1.Addtion");
+     System.out.println("2.Subraction");
+      System.out.println("3.Multiply");
+       System.out.println("4.Divide");
+        System.out.println("5.square");
 
-   Scanner sc = new Scanner(System.in);
+             while(true){
+        int option = getInputInt("option");
+                switch (option) {
+                    case 1->{
+                        addtion();
+                    }
+                    case 2->{
+                        subraction();
+                    }
+                    case 3->{
+                        multiply()
+                    }
+                    case 4->{
+                        divide();
+                    }
+                case 5 ->{
+                    square();
+                }
+                    
+                }
+             }
+}
+Scanner sc = new Scanner(System.in);
 
 public int getInputInt(String message){
    
@@ -63,4 +66,3 @@ public int getInputInt(String message){
   
   }
 >>>>>>> cf03b0764bea54f409e8892c37558b406966038a
->>>>>>> 5259fed8367e8e9ef883aaca5bba11caec84030c
